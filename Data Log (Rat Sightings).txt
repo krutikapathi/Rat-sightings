@@ -1,0 +1,30 @@
+Data log:
+
+
+
+1. Accessed 311 Service Requests from 2010 to present via NYC Open Data (https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
+2. Used the filter function to narrow down results to descriptors. Set descriptor to: Rat Sighting.
+3. Added additional filter to further narrow focus. Set borough to Manhattan.
+4. Added additional filter to restrict dates. Created three filters for dates: 1st Jan 2013 to 31st Dec 2013, 1st Jan 2014 to 31st Dec 2014 and 1st Jan 2015 to 22nd Dec 2015. 
+5. Exported files to Excel as CSV file. 
+6. Newly created Excel file with the above mentioned dates (2013-2015) had a combined total of 10,604 rows. 
+7. Ensured that exported data was delimited with commas, dates were MDY and all zip codes were assigned to text in order to get clean data. 
+8. Saved Excel file as Rat Sightings Manhattan (2013-15). 
+9. Used filter function (contains) to make sure dates corresponded to 1st Jan 2013- 22nd Dec 2015.
+9. A pivot table was created for the data.
+10. Using the Pivot Table Builder, data was sorted according to year- 2013, 2014 and 2015.
+11. By placing the Descriptor and Community Board function under Row Labels, the pivot table showed data of Rat Sightings in each Community Board per year.
+12. Since a lot of sightings were labelled under ‘Unspecified’, placing the Borough under Values in the pivot table, sorted the data under ‘Count of Borough’. This showed the grand total number of reported rat sightings per year for the three years in all of Manhattan.
+13. The Location Type filter was placed under Column in order to filter the number of rat sightings in Manhattan according to different spaces (eg- Apt building, commercial building, etc).
+14. Overall, this found the grand total of rat sightings in Manhattan per year, the highest sightings according to community board number (but this isn’t reliable since much of the data was classified under ‘Unspecified’), as well as the highest number of sightings according to each location type. 
+15. For 2013:
+- grand total sightings: 3,011
+- location type: 3+ Family Apt Building (1,382 sightings)
+    For 2014:
+- grand total sightings: 3,534
+-location type: 3+ Family Apt Building (1,708 sightings)
+    For 2015:
+-grand total sightings: 4,059
+-location type: 3+ Family Apt Building (2,057 sightings)
+16. Looking at the above data, there has been a 17.4 (rounded figure) percent increase in rat sightings between 2013-2014, and 14.8 (rounded figure) percent increase in sightings between 2014-2015. Overall, between 2013 and 2015, there has been an increase of approximately 34 percent. 
+17. The sightings also seem to be most concentrated in family apartment buildings in each year- 2013: 45.89 %, 2014: 48.33% and 2015: 50.67%.
